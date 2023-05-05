@@ -104,9 +104,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
+    "(app-client)/./src/components/Navbar.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./src/components/Navbar.tsx",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -114,7 +114,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./src/components/Navbar.tsx",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -122,7 +122,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./src/components/Navbar.tsx",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -330,48 +330,24 @@ self.__RSC_MANIFEST={
     "name": "default",
     "async": false
   },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/client/link.js": {
-    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+  "/Users/jeonchanhyuk/Desktop/trendit/src/components/Navbar.tsx": {
+    "id": "(app-client)/./src/components/Navbar.tsx",
     "chunks": [
       "app/layout:app/layout"
     ],
     "name": "*",
     "async": false
   },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/client/link.js": {
-    "id": "(app-client)/./node_modules/next/dist/client/link.js",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/client/link.js#": {
-    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+  "/Users/jeonchanhyuk/Desktop/trendit/src/components/Navbar.tsx#": {
+    "id": "(app-client)/./src/components/Navbar.tsx",
     "chunks": [
       "app/layout:app/layout"
     ],
     "name": "",
     "async": false
   },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/client/link.js#": {
-    "id": "(app-client)/./node_modules/next/dist/client/link.js",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/client/link.js#default": {
-    "id": "(app-client)/./node_modules/next/dist/client/link.js",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/client/link.js#default": {
-    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+  "/Users/jeonchanhyuk/Desktop/trendit/src/components/Navbar.tsx#default": {
+    "id": "(app-client)/./src/components/Navbar.tsx",
     "chunks": [
       "app/layout:app/layout"
     ],
