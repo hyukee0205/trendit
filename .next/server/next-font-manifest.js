@@ -1,0 +1,10 @@
+self.__NEXT_FONT_MANIFEST={
+  "pages": {},
+  "app": {
+    "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Open_Sans\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"openSans\"}": [
+      "static/media/cdbcea0e589a6ff7-s.p.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}
