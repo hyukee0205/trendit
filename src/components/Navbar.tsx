@@ -4,7 +4,7 @@ import Link from 'next/link';
 import BellIcon from './ui/icons/BellIcon';
 import SearchIcon from './ui/icons/SearchIcon';
 import SignButton from './ui/SignButton';
-import { useSession, signIn, singOut } from 'next-auth/react';
+import { useSession, signIn, signOut } from 'next-auth/react';
 
 
 const menu = [
@@ -45,14 +45,14 @@ export default function Navbar() {
           {session ? (
             <>
               <BellIcon />
-              <SignButton text='Logout' onClick={() => {}}/>
+              <SignButton text='Logout' onClick={() => signOut()}/>
             </>
           ) : (
-            <SignButton text='Login' onClick={() => {}}/>
+            <SignButton text='Login' onClick={() => signIn()}/>
           )}
         </div>    
       </nav>
     </div>
   );
 }
-
+ 
