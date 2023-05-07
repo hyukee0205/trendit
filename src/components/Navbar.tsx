@@ -4,6 +4,7 @@ import Link from 'next/link';
 import BellIcon from './ui/icons/BellIcon';
 import SearchIcon from './ui/icons/SearchIcon';
 import SignButton from './ui/SignButton';
+import { useSession, signIn, singOut } from 'next-auth/react';
 
 
 const menu = [
@@ -22,6 +23,8 @@ const menu = [
 ]
 
 export default function Navbar() {
+  const {data: session} = useSession();
+
   return (
     <div>
       <nav className='flex justify-between items-center px-6 py-2'>
@@ -39,8 +42,14 @@ export default function Navbar() {
         </ul>
         <div className='flex gap-4 items-center'>
           <SearchIcon />
-          <BellIcon />
-          <SignButton text='Sign in' onClick={() => {}}/>
+          {session ? (
+            <>
+              <BellIcon />
+              <SignButton text='Logout' onClick={() => {}}/>
+            </>
+          ) : (
+            <SignButton text='Login' onClick={() => {}}/>
+          )}
         </div>    
       </nav>
     </div>
