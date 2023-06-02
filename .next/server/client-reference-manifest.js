@@ -104,6 +104,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/components/FollowingBar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/FollowingBar.tsx",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/FollowingBar.tsx",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/FollowingBar.tsx",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
     "(app-client)/./src/components/Navbar.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/Navbar.tsx",
@@ -156,69 +182,27 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+    "(app-client)/./src/context/SWRConfigContext.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "id": "(sc_client)/./src/context/SWRConfigContext.tsx",
         "chunks": [
-          "app/auth/signin/page:app/auth/signin/page"
+          "app/layout:app/layout"
         ],
         "name": "*",
         "async": false
       },
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "id": "(sc_client)/./src/context/SWRConfigContext.tsx",
         "chunks": [
-          "app/auth/signin/page:app/auth/signin/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "NoSSR": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "chunks": [
-          "app/auth/signin/page:app/auth/signin/page"
-        ],
-        "name": "NoSSR",
-        "async": false
-      },
-      "__esModule": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "chunks": [
-          "app/auth/signin/page:app/auth/signin/page"
-        ],
-        "name": "__esModule",
-        "async": false
-      },
-      "suspense": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "chunks": [
-          "app/auth/signin/page:app/auth/signin/page"
-        ],
-        "name": "suspense",
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Signin.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Signin.tsx",
-        "chunks": [
-          "app/auth/signin/page:app/auth/signin/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Signin.tsx",
-        "chunks": [
-          "app/auth/signin/page:app/auth/signin/page"
+          "app/layout:app/layout"
         ],
         "name": "",
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/components/Signin.tsx",
+        "id": "(sc_client)/./src/context/SWRConfigContext.tsx",
         "chunks": [
-          "app/auth/signin/page:app/auth/signin/page"
+          "app/layout:app/layout"
         ],
         "name": "default",
         "async": false
@@ -231,326 +215,6 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_src_app_globals_css.css",
       "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_tsx_import_Open_Sans-2ea7db.css"
     ]
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/app-router-context.js": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/app-router-context.js#": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "AppRouterContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "AppRouterContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "CacheStates",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "CacheStates",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "GlobalLayoutRouterContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "GlobalLayoutRouterContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "LayoutRouterContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "LayoutRouterContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "TemplateContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "TemplateContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/app-router-context.js#__esModule": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "__esModule",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/app-router-context.js#__esModule": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "__esModule",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/hooks-client-context.js": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/hooks-client-context.js#LayoutSegmentsContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "LayoutSegmentsContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#LayoutSegmentsContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "LayoutSegmentsContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/hooks-client-context.js#ParamsContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "ParamsContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#ParamsContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "ParamsContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "PathnameContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "PathnameContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "SearchParamsContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "SearchParamsContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/hooks-client-context.js#__esModule": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "__esModule",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#__esModule": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "__esModule",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/server-inserted-html.js": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "ServerInsertedHTMLContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "ServerInsertedHTMLContext",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/server-inserted-html.js#__esModule": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "__esModule",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#__esModule": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "__esModule",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "useServerInsertedHTML",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-    "chunks": [
-      "webpack:webpack"
-    ],
-    "name": "useServerInsertedHTML",
-    "async": false
   },
   "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/client/components/app-router.js": {
     "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
@@ -744,6 +408,30 @@ self.__RSC_MANIFEST={
     "name": "default",
     "async": false
   },
+  "/Users/jeonchanhyuk/Desktop/trendit/src/components/FollowingBar.tsx": {
+    "id": "(app-client)/./src/components/FollowingBar.tsx",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/jeonchanhyuk/Desktop/trendit/src/components/FollowingBar.tsx#": {
+    "id": "(app-client)/./src/components/FollowingBar.tsx",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/jeonchanhyuk/Desktop/trendit/src/components/FollowingBar.tsx#default": {
+    "id": "(app-client)/./src/components/FollowingBar.tsx",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
   "/Users/jeonchanhyuk/Desktop/trendit/src/components/Navbar.tsx": {
     "id": "(app-client)/./src/components/Navbar.tsx",
     "chunks": [
@@ -792,106 +480,26 @@ self.__RSC_MANIFEST={
     "name": "default",
     "async": false
   },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+  "/Users/jeonchanhyuk/Desktop/trendit/src/context/SWRConfigContext.tsx": {
+    "id": "(app-client)/./src/context/SWRConfigContext.tsx",
     "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
+      "app/layout:app/layout"
     ],
     "name": "*",
     "async": false
   },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+  "/Users/jeonchanhyuk/Desktop/trendit/src/context/SWRConfigContext.tsx#": {
+    "id": "(app-client)/./src/context/SWRConfigContext.tsx",
     "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
+      "app/layout:app/layout"
     ],
     "name": "",
     "async": false
   },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+  "/Users/jeonchanhyuk/Desktop/trendit/src/context/SWRConfigContext.tsx#default": {
+    "id": "(app-client)/./src/context/SWRConfigContext.tsx",
     "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "NoSSR",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "NoSSR",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#__esModule": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "__esModule",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#__esModule": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "__esModule",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "suspense",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
-    "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "suspense",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/src/components/Signin.tsx": {
-    "id": "(app-client)/./src/components/Signin.tsx",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/src/components/Signin.tsx#": {
-    "id": "(app-client)/./src/components/Signin.tsx",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/jeonchanhyuk/Desktop/trendit/src/components/Signin.tsx#default": {
-    "id": "(app-client)/./src/components/Signin.tsx",
-    "chunks": [
-      "app/auth/signin/page:app/auth/signin/page"
+      "app/layout:app/layout"
     ],
     "name": "default",
     "async": false

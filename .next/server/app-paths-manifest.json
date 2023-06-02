@@ -1,6 +1,4 @@
 {
-  "/auth/signin/page": "app/auth/signin/page.js",
-  "/news/page": "app/news/page.js",
   "/page": "app/page.js",
-  "/style/page": "app/style/page.js"
+  "/api/me/route": "app/api/me/route.js"
 }
