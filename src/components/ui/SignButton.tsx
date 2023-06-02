@@ -1,7 +1,7 @@
 type Props = {
   text: string;
   onClick: () => void;
-  style: string;
+  style?: string;
 }
 
 

@@ -5,6 +5,7 @@ import BellIcon from './ui/icons/BellIcon';
 import SearchIcon from './ui/icons/SearchIcon';
 import SignButton from './ui/SignButton';
 import { useSession, signIn, signOut } from 'next-auth/react';
+import Avatar from './ui/Avatar';
 
 
 const menu = [
@@ -24,6 +25,7 @@ const menu = [
 
 export default function Navbar() {
   const {data: session} = useSession();
+  const user = session?.user;
 
   return (
     <div>
@@ -45,6 +47,11 @@ export default function Navbar() {
           {session ? (
             <>
               <BellIcon />
+              {user && (
+              <Link href={`/user/${user.username}`}>
+                <Avatar image={user.image} />
+              </Link>
+              )}
               <SignButton text='Logout' onClick={() => signOut()}/>
             </>
           ) : (
